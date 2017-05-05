@@ -116,7 +116,7 @@ a.text-danger:hover {
 }
 
 .modal-content{
-	background: url('../img/tile.jpg') top left repeat;
+	background: url('tile.jpg') top left repeat;
 }
 
 .badge.social {
@@ -152,7 +152,7 @@ i.ci {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background: url('../img/icon-sprite.png') no-repeat;
+	background: url('icon-sprite.png') no-repeat;
 }
 
 .ci.ci-computer 	{ background-position: 0 0; }
@@ -243,7 +243,7 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-		background: url('../img/disco-2190733_1920.png') 100% no-repeat;
+		background: url('disco-2190733_1920.png') 100% no-repeat;
 	min-height: 750px;
 	position: relative;
 	display: table;
@@ -367,12 +367,12 @@ section.main-content {
 }
 
 .feature-image-default {
-	background: url('../img/stuff-feature.jpg') no-repeat;
+	background: url('stuff-feature.jpg') no-repeat;
 	background-size: cover;
 }
 
 .feature-image-default-alt {
-	background: url('../img/hipster-stuff.jpg') no-repeat;
+	background: url('hipster-stuff.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -414,14 +414,14 @@ section.main-content {
 }
 
 #featurette {
-	background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+	background: url('stuff-bg.jpg') 50% 100% repeat fixed;
 	background-size: cover;
 	text-align: center;
 	color: white;
 }
 
 #instructor {
-	background: white url('../img/fitness-1757120_1280.png') 90% -10px no-repeat;
+	background: white url('fitness-1757120_1280.png') 90% -10px no-repeat;
   margin-top: 25px;
 }
 
@@ -472,7 +472,7 @@ section.main-content {
 
 #signup {
 	text-align: center;
-	background: url('../img/group HIIT.jpg') center center repeat fixed;
+	background: url('group HIIT.jpg') center center repeat fixed;
 	background-size: cover;
 	color: white;
 	padding: 140px 0;
