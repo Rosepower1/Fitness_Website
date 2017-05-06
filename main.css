@@ -1,10 +1,4 @@
-/* COLOUR REFERENCES
 
-Green:		#79b044
-Salmon:		#dd5638
-Blue Gray:  #3e4249
-
-*/
 
 /* ==== GENERAL ==== */
 
@@ -14,6 +8,8 @@ body {
 	font-size: 16px;
 
 }
+
+
 
 /* ==== GLOBAL ==== */
 
@@ -42,6 +38,7 @@ h4 {
 p.lead {
 	font-weight: normal;
   margin-right: 20px;
+  padding: 30px;
 }
 
 p {
@@ -116,7 +113,7 @@ a.text-danger:hover {
 }
 
 .modal-content{
-	background: url('tile.jpg') top left repeat;
+	background: url('../img/tile.jpg') top left repeat;
 }
 
 .badge.social {
@@ -152,7 +149,7 @@ i.ci {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background: url('icon-sprite.png') no-repeat;
+	background: url('../img/icon-sprite.png') no-repeat;
 }
 
 .ci.ci-computer 	{ background-position: 0 0; }
@@ -206,6 +203,14 @@ button[type="submit"] {
 	border-radius: 6px;
 }
 
+  .btn-info {
+  background: #dd5638 url('../img/orange-gradient.jpg') center center;
+}
+
+#section_head_contact {
+  padding: 40px;
+}
+
 input[type="submit"]:hover,
 button[type="submit"]:hover {
 	outline: none;
@@ -243,7 +248,7 @@ form textarea {
 /* ==== HERO ==== */
 
 #hero {
-		background: url('disco-2190733_1920.png') 100% no-repeat;
+		background: url('../img/disco-2190733_1920.png') 100% no-repeat;
 	min-height: 750px;
 	position: relative;
 	display: table;
@@ -356,23 +361,19 @@ section.main-content {
 	padding: 40px 0;
 }
 
-#primary {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
 .feature-image {
 	display: table;
 	width: 100%;
+
 }
 
 .feature-image-default {
-	background: url('stuff-feature.jpg') no-repeat;
+	background:#dd5638 url('../img/orange-gradient.jpg');
 	background-size: cover;
 }
 
 .feature-image-default-alt {
-	background: url('hipster-stuff.jpg') no-repeat;
+	background: url('../img/hipster-stuff.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -380,7 +381,8 @@ section.main-content {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-	color: white;
+	color: #000;
+  font-size: 28px;
 }
 
 #optin {
@@ -414,14 +416,14 @@ section.main-content {
 }
 
 #featurette {
-	background: url('stuff-bg.jpg') 50% 100% repeat fixed;
+	background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
 	background-size: cover;
 	text-align: center;
 	color: white;
 }
 
 #instructor {
-	background: white url('fitness-1757120_1280.png') 90% -10px no-repeat;
+	background: white url('../img/fitness-1757120_1280.png') 90% -10px no-repeat;
   margin-top: 25px;
 }
 
@@ -472,7 +474,7 @@ section.main-content {
 
 #signup {
 	text-align: center;
-	background: url('group HIIT.jpg') center center repeat fixed;
+	background: url('../img/group HIIT.jpg') center center repeat fixed;
 	background-size: cover;
 	color: white;
 	padding: 140px 0;
@@ -481,7 +483,7 @@ section.main-content {
 
 #signup h2 {
 	font-weight: bold;
-  color: darkred;
+  color: #000;
   background-color: white;
   border-radius: 7px;
   font-size: 23px;
@@ -491,11 +493,18 @@ section.main-content {
 }
 
 #signup h2 strong {
-	border-bottom: solid 2px #dd5638;
+	border-bottom: solid 2px #3cb371;
 }
 
 #signup .btn {
 	font-size: 24px;
+  background: #dd5638 url('../img/orange-gradient.jpg') center center;
+
+}
+
+  #signup_font {
+  font-size: 30px;
+  font-weight:700;
 }
 
 footer {
@@ -520,7 +529,7 @@ footer a:hover {
 }
 
 footer li.signup-link a {
-	color: #dd5638;
+	color: #3CB371;
 }
 
 footer li.signup-link a:hover {
@@ -566,7 +575,6 @@ footer li.signup-link a:hover {
 img {
   margin-left: 25%;
 }
-
 
 
 .post-details {
@@ -748,4 +756,4 @@ img {
 		width: 100%;
 		margin-right: 0;
 	}
-}
+
