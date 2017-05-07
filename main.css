@@ -364,6 +364,7 @@ section.main-content {
 .feature-image {
 	display: table;
 	width: 100%;
+	padding:40px;
 
 }
 
