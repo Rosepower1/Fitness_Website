@@ -474,16 +474,16 @@ section.main-content {
 }
 
 #signup {
-	text-align: center;
-	background: url('group HIIT.jpg') center center repeat fixed;
-	background-size: cover;
-	color: white;
-	padding: 140px 0;
+  text-align: center;
+  background: url('group HIIT.jpg') center center repeat fixed;
+  background-size: contain;
+  color: white;
+  padding: 140px 0;
 }
 
 
 #signup h2 {
-	font-weight: bold;
+  font-weight: bold;
   color: #000;
   background-color: white;
   border-radius: 7px;
@@ -494,30 +494,30 @@ section.main-content {
 }
 
 #signup h2 strong {
-	border-bottom: solid 2px #3cb371;
+  border-bottom: solid 2px #3cb371;
 }
 
 #signup .btn {
-	font-size: 24px;
+  font-size: 24px;
   background: #dd5638 url('orange-gradient.jpg') center center;
 
 }
 
-  #signup_font {
+ #signup_font {
   font-size: 30px;
   font-weight:700;
 }
 
 footer {
-	background: #3e4249;
-	color: white;
-	padding: 40px  40px;
-	font-size: 16px;
+  background: #3e4249;
+  color: white;
+  padding: 40px  40px;
+  font-size: 16px;
   height:75px;
 }
 
 footer p {
-	margin: 0;
+  margin: 0;
 
 }
 
